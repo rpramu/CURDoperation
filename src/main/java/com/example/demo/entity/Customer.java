@@ -19,6 +19,7 @@ public class Customer {
 	int customerId;
 	
 	@JsonProperty("name")
+	//
 	String customername;
 	
 	@Column(name="discount")
